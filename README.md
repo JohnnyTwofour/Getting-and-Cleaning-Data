@@ -1,8 +1,8 @@
+Getting and Cleaning Data - Coursera  
 ==================================================================
-Getting and Cleaning Data - Coursera
-==================================================================
+  
 The supplied data is the Human Activity Recognition Using Smartphones Dataset (Version 1.0)
-==================================================================
+  
 The assignment is to take the data set, extract mean and std variables and take the mean of these variables over the subjects and activities
 
 The deliverables for this assignment are:
