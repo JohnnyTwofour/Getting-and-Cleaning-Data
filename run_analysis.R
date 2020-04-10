@@ -8,20 +8,20 @@ features$V2 <- paste("Avg_",features$V2, sep = "")
 activity <- read.table(file = "activity_labels.txt"
                        , col.names = c("Activity_Number", "Activity")
                        )
-subject_train <- read.table(file = "subject_train.txt"
+subject_train <- read.table(file = "train\subject_train.txt"
                             , col.names = "Subject")
-x_train <- read.table(file = "x_train.txt"
+x_train <- read.table(file = "train\x_train.txt"
                       , col.names = features[,2]
                       )
-y_train <- read.table(file = "y_train.txt"
+y_train <- read.table(file = "train\y_train.txt"
                       , col.names = "Activity_Number"
                       )
-subject_test <- read.table(file = "subject_test.txt"
+subject_test <- read.table(file = "test\subject_test.txt"
                            , col.names = "Subject")
-x_test <- read.table(file = "x_test.txt"
+x_test <- read.table(file = "test\x_test.txt"
                      , col.names = features[,2]
                      )
-y_test <- read.table(file = "y_test.txt"
+y_test <- read.table(file = "test\y_test.txt"
                      , col.names = "Activity_Number"
                      )
 
